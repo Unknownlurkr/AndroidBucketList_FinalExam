@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         binding.viewBucketListButton.setOnClickListener(){
-            val intent = Intent(this, ViewBucketListActivity::class.java)
+            val intent = Intent(this, RecyclerViewActivity::class.java)
             startActivity(intent)
         }
 
