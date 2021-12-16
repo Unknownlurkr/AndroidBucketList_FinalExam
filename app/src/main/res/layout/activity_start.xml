@@ -6,37 +6,64 @@
     android:layout_height="match_parent"
     tools:context=".StartActivity">
 
+
     <ImageView
         android:id="@+id/backgroundImage"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/background_img" />
 
-    <Button
-        android:id="@+id/viewBucketListButton"
+    <EditText
+        android:id="@+id/enterDestination"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="92dp"
-        android:text="@string/view_bucket_list"
-        android:backgroundTint="@color/azure_blue"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="132dp"
+        android:hint="Destination Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <EditText
+        android:id="@+id/enterDescription"
+        android:layout_width="410dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="24dp"
+        android:hint="Destination Description"
+        android:inputType="textMultiLine"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/enterDestination" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:entries="@array/ranking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/enterDescription" />
+
 
     <Button
-        android:id="@+id/addNewBucketListButton"
-        android:layout_width="match_parent"
+        android:id="@+id/submitNewBucketListItem"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/add_new_bucket_list_item"
-        android:backgroundTint="@color/azure_blue"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="24dp"
+        android:text="@string/add_destination_button_txt"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/viewBucketListButton"
-        />
+        app:layout_constraintTop_toBottomOf="@id/spinner" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
