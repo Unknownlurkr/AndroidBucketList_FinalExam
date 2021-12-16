@@ -40,8 +40,8 @@ class SigninActivity : AppCompatActivity() {
 
             // Successfully signed in-RESULT_OK
             val user = FirebaseAuth.getInstance().currentUser
-            //direct to main activity
-            val intent = Intent(this, MainActivity::class.java)
+            //direct to start activity
+            val intent = Intent(this, StartActivity::class.java)
             //pass in the user object
             intent.putExtra("user", user)
             //launches intent

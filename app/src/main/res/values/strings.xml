@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">BrittanySamuels200404362Final</string>
+    <string name="app_name">Brittany Samuels Bucket List</string>
+    <string name="add_new_bucket_list_item">ADD NEW BUCKET LIST ITEM</string>
+    <string name="view_bucket_list">VIEW BUCKET LIST</string>
 </resources>
