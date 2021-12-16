@@ -40,8 +40,7 @@ class SigninActivity : AppCompatActivity() {
 
             // Successfully signed in-RESULT_OK
             val user = FirebaseAuth.getInstance().currentUser
-
-            //once user authenticated-create intent-pass to grid recylerview
+            //direct to main activity
             val intent = Intent(this, MainActivity::class.java)
             //pass in the user object
             intent.putExtra("user", user)
