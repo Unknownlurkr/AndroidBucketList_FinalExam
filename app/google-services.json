@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "436543400879",
+    "project_id": "brittanysamuels200404362final",
+    "storage_bucket": "brittanysamuels200404362final.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:436543400879:android:88127367ffa48339e99d5a",
+        "android_client_info": {
+          "package_name": "com.gc200404362.brittanysamuels200404362final"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "436543400879-srt2hpbgu4tjpks094pf2ni3s6k7ourc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4eywJiRIcLvPFU_tNuhfc0IBdHiW61p0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "436543400879-srt2hpbgu4tjpks094pf2ni3s6k7ourc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
